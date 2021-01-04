@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT class (student+)>
+<!ELEMENT student (regno, name, avg, dob, time, mobile, distinction)>
+<!ELEMENT regno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT avg (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT distinction (#PCDATA)>
+

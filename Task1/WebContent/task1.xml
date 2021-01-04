@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students_info SYSTEM "task1.dtd">
+<class>
+<student>
+<name> Hasan </name>
+<id> 1 </id>
+<branch> CSE </branch>
+<cgpa> 9 </cgpa>
+</student>
+<student>
+<name> Humpty </name>
+<id> 2 </id>
+<branch> CSE </branch>
+<cgpa> 9 </cgpa>
+</student>
+<student>
+<name> Viraj </name>
+<id> 3 </id>
+<branch> CSE </branch>
+<cgpa> 9 </cgpa>
+</student>
+<student>
+<name> Abhimanyu </name>
+<id> 4 </id>
+<branch> ECE </branch>
+<cgpa> 9 </cgpa>
+</student>
+<student>
+<name> Mara </name>
+<id> 5 </id>
+<branch> CSE </branch>
+<cgpa> 9 </cgpa>
+</student>
+</class>
