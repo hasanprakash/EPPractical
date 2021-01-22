@@ -13,13 +13,13 @@ public class Student {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public int regGet() {
+	public int getReg() {
 		return regno;
 	}
-	public String nameGet() {
+	public String getName() {
 		return name;
 	}
-	public String emailGet() {
+	public String getEmail() {
 		return email;
 	}
 }
