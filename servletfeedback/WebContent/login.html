@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	body{
+		font-family:sans-serif;
+	}
+	.login{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+	}
+	.field{
+		margin: 8px;
+		border: 2px solid black;
+		border-radius: 5px;
+	}
+	.btn{
+		float:right;
+		color:blue;
+		border: 2px solid blue;
+		border-radius:2px;
+		transition: border-radius 0.25s linear;
+	}
+	.btn:hover{
+		float:right;
+		color:white;
+		background-color:blue;
+		border:2px solid blue;
+		border-radius:15px;
+	}
+	h4{
+		text-align:center;
+		color:red;
+	}
+	.green{
+		color:green;
+		text-align:center;
+	}
+	.red{
+		color:red;
+		text-align:center;
+	}
+	
+</style>
+</head>
+<body>
+<div class="login">
+	<form action="Login" method="post">
+		Email<br><input class="field" type="email" placeholder="Enter Email" name="email" required><Br>
+		Password<br><input class="field" type="password" placeholder="Enter Password" name="pass" required><br>
+		<input class="btn" type="submit">
+	</form>
+</div>
+</body>
+</html>

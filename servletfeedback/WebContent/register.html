@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	body{
+		font-family:sans-serif;
+	}
+	.register{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%, -50%);
+	}
+	.field{
+		margin: 8px;
+		border: 2px solid black;
+		border-radius: 5px;
+	}
+	.btn{
+		float:right;
+		color:blue;
+		border: 2px solid blue;
+	}
+	.btn:hover{
+		float:right;
+		color:white;
+		background-color:blue;
+		border:2px solid blue;
+		border-radius:8px;
+	}
+	.red{
+		text-align:center;
+		color:red;
+	}
+	.green{
+		text-align:center;
+		color:green;
+	}
+</style>
+</head>
+<body>
+<div class=register>
+	<form action="Register" method="post">
+		RegisterNo<br><input class="field" type="number" placeholder="RegNo" name="regno"><br>
+		Name<br><input class="field" type="text" placeholder="Your Name" name="name"><br>
+		Email<br><input class="field" type="email" placeholder="Your Email" name="email"><br>
+		Password<br><input class="field" type="password" placeholder="Your Password" name="pass"><br>
+		Year<br><input class="field" type="number" placeholder="Your Year" name="year"><br>
+		Section<br><input class="field" type="number" placeholder="Your Section" name="sec"><br>
+		<input class="btn" type="submit">
+	</form>
+</div>
+</body>
+</html>
